@@ -1,0 +1,23 @@
+{
+  "news": {
+    "mappings": {
+      "doc": {
+        "dynamic": "false",
+        "properties": {
+          "id": {
+            "type": "keyword"
+          },
+          "dateTime": {
+            "type": "keyword"
+          },
+          "header": {
+            "type": "keyword"
+          },
+          "body": {
+            "type": "text"
+          }
+        }
+      }
+    }
+  }
+}

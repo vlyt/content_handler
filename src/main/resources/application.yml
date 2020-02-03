@@ -1,0 +1,11 @@
+elasticsearch:
+  host: localhost
+  port: 9200
+  protocol: http
+
+aws:
+  access-key:
+  secret-key:
+  region: eu-west-1
+  sqs:
+    endpoint:
